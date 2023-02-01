@@ -9,12 +9,6 @@ mydb = mysql.connector.connect(
 
 client = mydb.cursor()
 
-users = [
-      {'name': 'Tedd Bundy', 'score': 50},
-      {'name': 'Homer Simpson', 'score': 75},
-      {'name': 'John Doe', 'score': 68}
-]
-
 def add_new_user(name):
       print('Add new user \n')
       ict_score = input('Enter new ICT score: ')
